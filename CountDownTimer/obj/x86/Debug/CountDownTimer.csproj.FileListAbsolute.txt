@@ -1,0 +1,21 @@
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.exe
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.pdb
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.Form1.resources
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.Properties.Resources.resources
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.exe
+c:\users\guzko\documents\visual studio 2010\Projects\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.pdb
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.exe
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.pdb
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.exe
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.pdb
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.csprojResolveAssemblyReference.cache
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.Form1.resources
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.Properties.Resources.resources
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.csproj.GenerateResource.Cache
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.exe.manifest
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\bin\Debug\CountDownTimer.application
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.exe.manifest
+C:\Users\Rifqi Zuliansyah\Desktop\CountDownTimer\CountDownTimer\obj\x86\Debug\CountDownTimer.application

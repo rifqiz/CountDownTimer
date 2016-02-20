@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CountDownTimer.exe" version="1.0.0.0" publicKeyToken="7b9e1d1d7f623ec3" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CountDownTimer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CountDownTimer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CountDownTimer.exe" size="260096">
+      <assemblyIdentity name="CountDownTimer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8VIalk/YLbZFptzUVyuWaeMqC0U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon1.ico" size="10134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LRTAJhBQIfpOqiVYsWv2KKrFzr4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-54403PP\Rifqi Zuliansyah" issuerKeyHash="fd8037990f8b5d4594c2b9c9e0d598e0f4a0761d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9pUD1HUkxDzKbQv+9OmMKUfaa1E=</DigestValue></Reference></SignedInfo><SignatureValue>okz2x2fkkOL2VVB0p8WapCTGXu3zJgGGYpwIuSkqcdHf52jZs0nho5LAyRyX801Qa5WuhbqX5rjfRz3AkJdUP6eSPK66PzcoXoHN2ZzEX3tKi75N58q7QYPNcvnauvwQkMGqDClvV6mUuGe74lZL2DFay5Bc/Ykm6vQwJm47zsI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vGOvf0mph1OK0vlYci4anbqM2eHdZTH9oRWkxrXKSgdZT/6rAVBr8Rj6cl9quRelgKXjKdAOZoaJ+YgIuIudYx3qm9eFfKrvhceWCgsLaDYcur5c4CnTr9J9DPlFYxeUPan8KfAFsUWjVMCC0hPGET1GrN6RHlmHUmCBHaAdpms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="516bda47298ce9f4fe0b6dca3cc42475d40395f6" Description="" Url=""><as:assemblyIdentity name="CountDownTimer.exe" version="1.0.0.0" publicKeyToken="7b9e1d1d7f623ec3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-54403PP\Rifqi Zuliansyah</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5zQsFvu9ujy1L8+Ib8SEOgzVepg=</DigestValue></Reference></SignedInfo><SignatureValue>AYdj/ESljzqCIjew/QNQCC0X0ot09Fkp935b3TGSmbCc84GoVdfOMFLpWnws0hTSrrAzo0Cpb1ccpKGyaVEtUkDvJLZoCxklPsx/SNTC1y3KEq9VS2ro0XEYBCiFtgLIynbQNdtRI4nyKsViYMLAkpAtJfvQ233ifoiSeh/l7bM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vGOvf0mph1OK0vlYci4anbqM2eHdZTH9oRWkxrXKSgdZT/6rAVBr8Rj6cl9quRelgKXjKdAOZoaJ+YgIuIudYx3qm9eFfKrvhceWCgsLaDYcur5c4CnTr9J9DPlFYxeUPan8KfAFsUWjVMCC0hPGET1GrN6RHlmHUmCBHaAdpms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICGTCCAYKgAwIBAgIQFcy7R0pRU7FP/LMCcJt49jANBgkqhkiG9w0BAQUFADBLMUkwRwYDVQQDHkAARABFAFMASwBUAE8AUAAtADUANAA0ADAAMwBQAFAAXABSAGkAZgBxAGkAIABaAHUAbABpAGEAbgBzAHkAYQBoMB4XDTE2MDIxMDEzNTg0NFoXDTE3MDIwOTE5NTg0NFowSzFJMEcGA1UEAx5AAEQARQBTAEsAVABPAFAALQA1ADQANAAwADMAUABQAFwAUgBpAGYAcQBpACAAWgB1AGwAaQBhAG4AcwB5AGEAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvGOvf0mph1OK0vlYci4anbqM2eHdZTH9oRWkxrXKSgdZT/6rAVBr8Rj6cl9quRelgKXjKdAOZoaJ+YgIuIudYx3qm9eFfKrvhceWCgsLaDYcur5c4CnTr9J9DPlFYxeUPan8KfAFsUWjVMCC0hPGET1GrN6RHlmHUmCBHaAdpmsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCBi/syWwBpWft4nY4AQNsfZ+24b21kLfSkP//xKT4S0QIPPet22n2SWlKIgq9UxUT9bdJCIDbwN2swqVr4iIa8aPpV+Nr5FzShpZoeEjyWMm0xcm7CDIr8ulopcCBiIvdp4miP+xGWu4ymUggq0y/RL3VmyB+8cBZLxDgmhzTuuQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
